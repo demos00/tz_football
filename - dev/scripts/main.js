@@ -18,7 +18,7 @@ $('#search').keyup(function () {
 
     //берем json объект
 
-    $.getJSON('../../json/players.json', function (data) {
+    $.getJSON('json/players.json', function (data) {
 
         //создаем переменную для дальнейшего добавления в HTML разметку
 
