@@ -1,0 +1,6 @@
+nav.nav
+        - var items = ["HELP", "OUR TEAM", "CONTACT US"]
+        ul.nav__list
+            each item in items
+                li(class="nav__item nav__item_")
+                    a(href="#").nav__link= item
